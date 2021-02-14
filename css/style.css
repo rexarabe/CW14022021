@@ -11,7 +11,8 @@ header {
     text-align: center;
 }
 
-#rocket{
+div #rocket{
+    background-color: darkslategray;
     padding: 2em 1em 1em;
 }
 #subheader{
@@ -27,25 +28,34 @@ header {
 }
 
 #firstsection p{
-    column-count: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    column-count: 2;
 }
+img{
+    height: auto;
+    width: 300px;
+}
+
 #secondSection{
     background-color: darkslategray;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 #s1{
+    background: white;
     grid-column-start:2;
     grid-column-end: 3;
 }
 
 #s2{
+    background: white;
     grid-column-start:4;
     grid-column-end: 5;
 }
 #s3{
+    background: white;
     grid-column-start: 6;
     grid-column-end: 7;
+}
+#thirdSection{
+    text-align: center;
 }
