@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: grid;
+    font-family: Saab;
+}
+header {
+    background-image: url("./../assets/code.png");
+    color: antiquewhite;
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
+#rocket{
+    padding: 2em 1em 1em;
+}
+#subheader{
+    grid-row-start:3;
+    grid-row-end: 4;
+
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
+#firstsection{
+    text-align: center;
+}
+
+#firstsection p{
+    column-count: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#secondSection{
+    background-color: darkslategray;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+#s1{
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+
+#s2{
+    grid-column-start:4;
+    grid-column-end: 5;
+}
+#s3{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
